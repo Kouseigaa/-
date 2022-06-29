@@ -1,7 +1,7 @@
 import java.util.*;
 
 //大写数字工具类
-public class NumUtil {
+public class LzgNumUtil {
     public static final String ZERO="零";
     public static final String ONE="壹";
     public static final String TWO="贰";
@@ -149,8 +149,4 @@ public class NumUtil {
         return level_4(number);
     }
 
-    public static void main(String[] args) {
-        System.out.println(NumUtil.upperCase("254414255"));
-    }
-    
 }
